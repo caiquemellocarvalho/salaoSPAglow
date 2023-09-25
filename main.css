@@ -1,0 +1,64 @@
+.body {
+    font-family: Roboto, sans-serif;
+}
+
+.navbar {
+    background-color: #000000;
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: #f9009a;
+    color:#000000;
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-nossosServicos {
+    color:#f9009a;
+}
+
+
+.navbar-toggler {
+    background-color: #000000;
+}
+
+#carousel img {
+    width: 100;
+}
+
+.section-title {
+    font-family: 'Tilt Neon', cursive;
+}
+
+#sobre-o-salao,
+#nossosServicos {
+    background-color:#f8cee4;
+}
+
+.text-colored {
+    color:#f9009a
+}
+.nav-nossosServicos .nav-link.active,
+#fale-conosco button {
+    background-color:#f9009a;
+    color: #fff;
+}
+
+.nav-nossosServicos .nav-link:hover {
+    color: #fff;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+@media (max-widht: 767px){
+    .carousel-item img{     
+    }
+}

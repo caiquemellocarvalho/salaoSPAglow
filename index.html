@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Tilt+Neon&display=swap" rel="stylesheet">
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
+     <link rel="stylesheet" href="main.css">
+</head>    
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p-4" id="cabecalho">
+        <div class="container">
+            <h1 class="navbar-brand fs-2 m-0 section-title">Glow Salão e SPA</h1>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
+                <ul class="nav nav-pills d-block d-lg-flex">
+                    <li class="nav-item fw-bold">
+                        <a href="#sobre-o-salao" class="nav-link">
+                            <i class="bi bi-house-door me-1"></i>
+                            Sobre o Glow
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#eventos" class="nav-link">
+                            <i class="bi bi-calendar-check me-1"></i>
+                            Dias especiais
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#nossosServicos" class="nav-link">
+                            <i class="bi bi-card-text me-1"></i>
+                            Nossos serviços
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#fale-conosco" class="nav-link">
+                            <i class="bi bi-chat-left-text me-1"></i>
+                            Fale conosco
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+<div data-bs-spy="scroll" data-bs-target="cabecalho" data-bs-smooth-scroll="true">
+    <section id="sobre-o-salao">
+        <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="3000">
+                    <img src="images/slides/eye-shadows-6198839_1280.jpg" alt="foto do espaço interno do restaurante">
+                </div>
+                <div class="carousel-item" data-bs-interval="3000">
+                    <img src="images/slides/pexels-delbeautybox-705255.jpg" alt="duas taças de vinho">
+                </div>
+                <div class="carousel-item" data-bs-interval="3000">
+                    <img src="images/slides/beauty-salon-3186723_1280.jpg" alt="uma mesa com comida">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carousel" class="active" data-bs-slide-to="0"></button>
+                <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+            </div>
+        </div>
+        <div class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-5">
+                        <img src="images/hairdressing-salon-2693077_1280.jpg" class="d-block w-100 rounded" alt="foto do espaço interno do restaurante">
+                    </div>
+                    <div class="col-md-7 mt-3 mt-md-0">
+                        <h2 class="section-title">Sobre o<span class="text-colored"> Glow</span></h2>
+                        <p>
+                            O Glow Salão e SPA é um estabelecimento renomado que oferece uma variedade de serviços de beleza e bem-estar. Com uma equipe altamente qualificada, proporcionamos tratamentos faciais, massagens relaxantes, cortes de cabelo modernos e manicure e pedicure de alta qualidade, entre outros serviços.
+                        </p>
+                        <h3 class="section-title">Sobre <span class="text-colored">o espaço</span></h3>
+                        <p>
+                            Nosso ambiente é luxuoso e relaxante, projetado para oferecer uma experiência excepcional aos nossos clientes. O espaço é elegantemente decorado, com uma atmosfera tranquila e acolhedora, tornando-o perfeito para relaxamento e rejuvenescimento.
+                        </p>
+                        <ul>
+                            <li>Amplo salão de Cuidados com o Cabelo</li>
+                            <li>Sala de Estética Facial</li>
+                            <li>Sala de Massagens Terapêuticas</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="eventos" class="pt-5 pb-5">
+        <div class="container">
+            <div class="row">
+                <h2 class="section-title text-center">Para dias<span class="text-colored"> especiais</span></h2>
+            </div>
+            <div class="row mt-4">
+                <div class="col-md-4">
+                    <img src="images/eventos/Captura de Tela 2023-09-19 às 16.32.01.png" class="d-block w-100 rounded mb-2" alt="formandos">
+                    <h3 class="section-title text-colored fs-4 text-center">
+                        <i class="bi bi-calendar-heart-fill"></i>
+                        Formatura
+                    </h3>
+                    <p>
+                        Nosso serviço de estética para o dia de formatura é projetado para ajudar os formandos a brilhar e se sentir confiantes em seu grande dia. Oferecemos uma variedade de tratamentos faciais, que incluem limpezas de pele profunda, máscaras de nutrição intensa e massagens faciais relaxantes.
+                    </p>
+                </div>
+                <div class="col-md-4">
+                    <img src="images/eventos/wedding-dresses-1486256_1920.jpg" class="d-block w-100 rounded mb-2" alt="noiva">
+                    <h3 class="section-title text-colored fs-4 text-center">
+                        <i class="bi bi-arrow-through-heart-fill"></i>
+                        Dia da Noiva 
+                    </h3>
+                    <p>
+                        Desfrute do nosso pacote exclusivo para noivas, cuidadosamente projetado para realçar a sua beleza no grande dia. Incluindo tratamento facial relaxante, massagem revigorante, manicure e pedicure impecáveis, além de uma sessão de maquiagem profissional. Prepare-se para brilhar e se sentir ainda mais confiante no seu dia.
+                    </p>
+                </div>
+                <div class="col-md-4">
+                    <img src="images/eventos/Captura de Tela 2023-09-19 às 16.35.39.png" class="d-block w-100 rounded mb-2" alt="mulher aplicando mascara facil">
+                    <h3 class="section-title text-colored fs-4 text-center">
+                        <i class="bi bi-person-fill"></i>
+                        Total Reboot
+                    </h3>
+                    <p>
+                        Experimente a revolução da beleza com o tratamento estético Total Reboot! Recarregue sua aparência com resultados surpreendentes. Desperte a sua autoconfiança e transforme-se em uma versão totalmente renovada de si mesma!
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="nossosServicos" class="pt-5 pb-5">
+        <div class="container">
+            <div class="row">
+                <h2 class="section-title text-center mb-5">Nossos <span class="text-colored">serviços</span></h2>
+            </div>
+            <div class="row">
+                <aside class="col-md-2">
+                    <nav class="nav nav-pills flex-column nav-nossosServicos">
+                        <button type="button" data-bs-toggle="tab" data-bs-target="#salao" class="fw-bold text-start nav-link text-colored active">Salão</button>
+                        <button type="button" data-bs-toggle="tab" data-bs-target="#SPA" class="fw-bold text-start nav-link text-colored ">SPA</button>
+                    </nav>
+                </aside>
+                <div class="col-md-10">
+                    <div class="tab-content">
+                        <div class="tab-pane active" id="salao">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <img class="d-block w-100 rounded" src="images/servicos/salao/hair-salon-3173422_1280.jpg" alt="homem fazendo a barba" />
+                                    <h5 class="text-colored fw-bold mt-2">Barbearia</h5>
+                                    <p>
+                                        Corte de cabelo e barba masculino. 
+                                    </p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100 rounded" src="images/servicos/salao/hair-1744959_1280.jpg" alt="cabelo sendo tingido" />
+                                    <h5 class="text-colored fw-bold mt-2">Coloração</h5>
+                                    <p>
+                                        Todos os procedimentos de cor com especialistas renomados. 
+                                    </p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100 rounded" src="images/servicos/salao/haircut-834280_1280.jpg" alt="corte de cabelo"/>
+                                    <h5 class="text-colored fw-bold mt-2 ">Cortes</h5>
+                                    <p>
+                                        Cortess para todos os tipos de cabelos. 
+                                    </p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100 rounded" src="images/servicos/salao/haircut-2664088_1280.jpg" alt="cabelo sendo escovado com secador e escova"/>
+                                    <h5 class="text-colored fw-bold mt-2">Escovas</h5>
+                                    <p>
+                                        Escovas para todas as ocasiões. 
+                                    </p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100 rounded" src="images/servicos/salao/people-2583493_1280.jpg" alt="manicure" />
+                                    <h5 class="text-colored fw-bold mt-2">Manicure e pedicure</h5>
+                                    <p>
+                                        Profissionais especializadas com um biblioteca extensão de cores. 
+                                    </p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100 rounded" src="images/servicos/salao/hair-care-4541744_1280.jpg" alt="produtos para cabelo" />
+                                    <h5 class="text-colored fw-bold mt-2">Tratamentos capilares</h5>
+                                    <p>
+                                        Procedimentos capilares dos mais tradicionais aos mais modernos. 
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane" id="SPA">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <img class="d-block w-100 rounded" src="images/servicos/SPA/sauna-6759374_1280.jpg" alt="baldinho e sais de banho "  />                                
+                                     <h5 class="text-colored fw-bold mt-2">Banhos e ofurôs</h5>
+                                    <p>
+                                        Venha relaxar com banhos e imersões curadas sob medida. 
+                                    </p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100 rounded" src="images/servicos/SPA/hair-removal-1247337_1280.jpg" alt="cera depilatória" />
+                                    <h5 class="text-colored fw-bold mt-2">Depilação</h5>
+                                    <p>
+                                        Profissionais especializadas em várias tecnicas. 
+                                    </p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100 rounded" src="images/servicos/SPA/hair-removal-4188610_1280.jpg" alt="tratamento estético"  />                                
+                                     <h5 class="text-colored fw-bold mt-2">Estética corporal</h5>
+                                    <p>
+                                        Os mais variados procedimentos. 
+                                    </p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100 rounded" src="images/servicos/SPA/massage-handle-2169102_1280.jpg" alt="massagem facial" />
+                                    <h5 class="text-colored fw-bold mt-2">Estética facial</h5>
+                                    <p>
+                                        Os mais variados procedimentos.  
+                                    </p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100 rounded" src="images/servicos/SPA/woman-567021_1280.jpg" alt="massagem"  />                                
+                                     <h5 class="text-colored fw-bold mt-2">Massagens</h5>
+                                    <p>
+                                        Terapeutas especializados nas mais variadas tecnicas. 
+                                    </p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100 rounded" src="images/servicos/SPA/fupflege-5012705_1280.jpg" alt="tratamento podólogo" />
+                                    <h5 class="text-colored fw-bold mt-2">Podologia</h5>
+                                    <p>
+                                        Varios tratamentos. 
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="fale-conosco" class="pt-5 pb-5">
+        <div class="container">
+            <div class="row">
+                <h2 class="section-title text-center">Fale <span class="text-colored">conosco</span></h2>
+            </div>
+            <div class="row">
+                <div class="col-md-7 mb-5">
+                    <form>
+                        <div class="mb-3">
+                            <label for="nome" class="form-label fw-bold text-colored">Seu Nome</label>
+                            <input type="text" id="nome" name="nome" class="form-control" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label fw-bold text-colored">Seu e-mail</label>
+                            <input type="email" id="email" name="email" class="form-control" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="telefone" class="form-label fw-bold text-colored">Seu telefone (opcional)</label>
+                            <input type="tel" id="telefone" name="telefone" class="form-control">
+                        </div>
+                        <div class="mb-3">
+                            <label for="mensagem" class="form-label fw-bold text-colored">Sua mensagem</label>
+                            <textarea class="form-control" id="mensagem" name="mensagem" required></textarea>
+                        </div>
+                        <button type="submit" class="btn fw-bold">Enviar</button>
+                    </form>
+                </div>
+                <div class="col-md-5">
+                    <div class="row">
+                        <h3 class="section-title fs-4 text-colored">
+                            <i class="bi bi-hand-thumbs-up-fill"></i>
+                            Redes sociais
+                        </h3>
+                        <ul class="social-links">
+                          <li class="fs-5">
+                            <a href="#">
+                                <i class="bi bi-facebook text-colored"></i>
+                            </a>
+                          </li>
+                          <li class="fs-5 ms-1 me-1">
+                            <a href="#">
+                                <i class="bi bi-instagram text-colored"></i>
+                            </a>
+                          </li>
+                          <li class="fs-5">
+                            <a href="#">
+                                <i class="bi bi-whatsapp text-colored"></i>
+                            </a>
+                          </li>
+                        </ul>
+                    </div>
+                    <div class="row mt-4">
+                        <h3 class="section-title fs-4 text-colored">
+                            <i class="bi bi-cursor-fill"></i>
+                            Endereço
+                        </h3>
+                        <p>
+                            R. Martins Celestius, 1691 - Jardim Paulista, São Paulo - SP
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+</div>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+   <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+   <script src="main.js"></script>
+   <script src="js/jquery.mask.min.js"></script>
+   <script src="js/jquery.validate.min.js"></script>
+   <script src="js/messages_pt_BR.min.js"></script>
+</body>
+</html>
